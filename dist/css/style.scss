@@ -6,22 +6,60 @@ body {
 	background: $white
 }
 
-
 .benefits {
 	height:875px;
 	margin-bottom:50px;
 		.picture {
 		margin:0 auto;
-		background:blue;
+		// background:#519251;
 		height:330px;
 		box-sizing:border-box;
 			div {
 				height:330px;
-				background:green;
+				// background:#519251;
 				width:50%;
 				margin:0 auto;
+				padding-top:50px;
+				box-sizing:border-box;
 		}
 	}
+}
+
+.green {
+	background:#519251;
+}
+
+.blue {
+	background:#2C4985
+}
+
+.black {
+	background:#111111;
+}
+
+.account {
+	text-align:center;
+	font-size:35px;
+	color:$white;
+	margin:0px auto 0px auto;
+	box-sizing:border-box;
+}
+
+.cost {
+	text-align:center;
+	font-size:130px;
+	color:$white;
+	margin:0px auto 0px auto;
+	box-sizing:border-box;
+}
+
+.billing {
+	text-align:center;
+	font-size:35px;
+	color:$white;
+	margin:0px auto 0px auto;
+	box-sizing:border-box;
+	opacity:.5;
 }
 
 .children {
@@ -49,12 +87,20 @@ body {
 
 .btn {
 	height:50px;
-	width:25%;
+	width:20%;
 	margin:auto;
-	background:red;
-	font-size:25px;
-	font-weight:bold;
+	background:$white;
 	text-align:center;
+	padding-top:10px;
+	box-sizing:border-box;
+	border-radius:25px;
+	border:2px solid #E9E9E9;
+		a {
+			color:#262626;
+			text-decoration: none;
+			font-size:25px;
+			font-weight:bold;
+	}
 }
 
 .bottom-text {
@@ -80,6 +126,12 @@ body {
 	height:350px;
 	margin:170px auto 50px auto;
 	box-sizing:border-box;
+		.header1 {
+			height:50px;
+			background:gray;
+			margin-bottom: 40px;
+			box-sizing:border-box;
+	}
 }
 
 .logo {
