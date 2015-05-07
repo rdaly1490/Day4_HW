@@ -1,0 +1,158 @@
+body {
+  background: #FFFFFF; }
+
+.benefits {
+  height: 875px;
+  margin-bottom: 50px; }
+
+.benefits .picture {
+  margin: 0 auto;
+  background: blue;
+  height: 330px;
+  box-sizing: border-box; }
+
+.benefits .picture div {
+  height: 330px;
+  background: green;
+  width: 50%;
+  margin: 0 auto; }
+
+.children {
+  background: #F7F7F7;
+  height: 70px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  border: 1.5px solid #E9E9E9;
+  text-align: center;
+  line-height: 70px; }
+
+.children span {
+  color: #515F65;
+  font-size: 25px; }
+
+.choose-btn {
+  height: 125px;
+  margin: 0 auto;
+  background: #FFFFFF;
+  padding-top: 37.5px;
+  border: 1.5px solid #E9E9E9;
+  box-sizing: border-box; }
+
+.btn {
+  height: 50px;
+  width: 25%;
+  margin: auto;
+  background: red;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center; }
+
+.bottom-text {
+  background: orange;
+  height: 360px;
+  margin: 40px auto 50px auto;
+  box-sizing: border-box; }
+
+.bottom-text .header {
+  height: 50px;
+  background: gray;
+  margin-bottom: 40px;
+  box-sizing: border-box; }
+
+.paragraph {
+  height: 260px;
+  background: brown; }
+
+.bottom-text1 {
+  background: orange;
+  height: 350px;
+  margin: 170px auto 50px auto;
+  box-sizing: border-box; }
+
+.logo {
+  height: 65px;
+  width: 35%;
+  background: #FFFFFF;
+  float: left;
+  padding-top: 17.5px;
+  box-sizing: border-box; }
+
+.logo a {
+  display: table;
+  margin: 0 auto;
+  font-size: 30px;
+  font-stretch: expanded;
+  text-decoration: none;
+  color: #484F57;
+  font-family: sans-serif; }
+
+.top-gray {
+  height: 65px;
+  width: 21.7%;
+  background: #FFFFFF;
+  float: right;
+  padding-top: 20px;
+  box-sizing: border-box; }
+
+.top-gray a {
+  display: table;
+  margin: 0 auto;
+  font-size: 25px;
+  text-decoration: none;
+  color: #7D7D7D;
+  font-family: sans-serif; }
+
+.top-black {
+  height: 65px;
+  width: 21.6%;
+  background: #FFFFFF;
+  float: right;
+  padding-top: 20px;
+  box-sizing: border-box; }
+
+.top-black a {
+  display: table;
+  margin: 0 auto;
+  font-size: 25px;
+  text-decoration: none;
+  color: #000000;
+  font-family: sans-serif; }
+
+.navbar {
+  height: 65px;
+  background: #000000;
+  margin: 0 auto; }
+
+.trees {
+  height: 300px;
+  background: url(pics/trees.jpg) center;
+  background-size: 270%;
+  background-position: left 5px top -40px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  padding-top: 60px;
+  box-sizing: border-box; }
+
+.trees .text {
+  color: #FFFFFF;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #000;
+  font-size: 50px;
+  height: 60%;
+  width: 60%;
+  margin: 0px auto 0px auto;
+  padding-top: 35px; }
+
+.trees .text p {
+  margin: 0px auto 0px auto;
+  text-align: center; }
+
+.main {
+  height: 4520px;
+  background: #FFFFFF;
+  padding: 0px 10px;
+  padding-top: 75px; }
+
+.footer {
+  height: 150px;
+  background: black; }
