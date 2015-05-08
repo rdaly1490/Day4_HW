@@ -104,33 +104,50 @@ body {
 }
 
 .bottom-text {
-	background:orange;
+	background:$white;
 	height:360px;
 	margin:40px auto 50px auto;
 	box-sizing:border-box;
 		.header {
 			height:50px;
-			background:gray;
+			background:$white;
 			margin-bottom: 40px;
 			box-sizing:border-box;
+				p {
+					color:#000;
+					font-size: 30px;
+					margin:0;
+		}
 	}
 }
 
 .paragraph {
 	height:260px;
-	background:brown;
+	background:$white;
+	padding-right:50px;
+	text-align:left;
+		p {
+			color:#556369;
+			font-size: 25px;
+		}
 }
 
 .bottom-text1 {
-	background:orange;
+	background:$white;
 	height:350px;
-	margin:170px auto 50px auto;
+	margin:160px auto 50px auto;
 	box-sizing:border-box;
 		.header1 {
 			height:50px;
-			background:gray;
+			background:$white;
 			margin-bottom: 40px;
 			box-sizing:border-box;
+			padding-top:10px;
+					p {
+					color:#000;
+					font-size: 30px;
+		}
+
 	}
 }
 
@@ -227,5 +244,22 @@ body {
 
 .footer {
 	height:150px;
-	background:black;
+	background:#000;
+	text-align:center;
+	box-sizing:border-box;
+	padding-top:55px;
+		p {
+			color:#556369;
+			font-size:20px;
+			margin:0 auto;
+	}
 }
+
+.footer {
+	a {
+		color:$white;
+	}
+}
+
+
+
