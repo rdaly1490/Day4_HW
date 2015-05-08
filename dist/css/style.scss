@@ -161,7 +161,7 @@ body {
 	a {
 		display:table;
 		margin:0 auto;
-		font-size:30px;
+		font-size:20px;
 		font-stretch:expanded;
 		text-decoration: none;
 		color:#484F57;
@@ -179,7 +179,7 @@ body {
 	a {
 		display:table;
 		margin:0 auto;
-		font-size:25px;
+		font-size:20px;
 		text-decoration: none;
 		color:#7D7D7D;
 		font-family: sans-serif;
@@ -196,7 +196,7 @@ body {
 	a {
 		display:table;
 		margin:0 auto;
-		font-size:25px;
+		font-size:20px;
 		text-decoration: none;
 		color:#000000;
 		font-family: sans-serif;
@@ -222,14 +222,14 @@ body {
 			color:#FFFFFF;
 			font-weight: bold;
 			text-shadow: 1px 1px 1px #000;
-			font-size:50px;
+			font-size:32px;
 			height:60%;
 			width:60%;
-			margin:0px auto 0px auto;
+			margin:0 auto;
 			padding-top:35px;
+			text-align: center;
 			p {
 			margin:0px auto 0px auto;
-			text-align: center;
 		}
 	}
 }
