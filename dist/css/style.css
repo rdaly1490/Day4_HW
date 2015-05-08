@@ -209,7 +209,6 @@ body {
   margin: 0px auto 0px auto; }
 
 .main {
-  height: 4520px;
   background: #FFFFFF;
   padding: 0px 10px;
   padding-top: 75px; }
@@ -237,3 +236,23 @@ body {
     margin: 0 auto; }
   .text p {
     font-size: 1.5em; } }
+
+@media (min-width: 767px) {
+  .benefits {
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 31%; }
+  .bottom-text1 {
+    float: left;
+    width: 48%;
+    margin: 4px auto 50px auto;
+    height: 360px; }
+  .bottom-text1 .header1 {
+    padding-top: 0px; }
+  .bottom-text {
+    float: left;
+    width: 48%; }
+  .footer {
+    margin-top: 100%;
+    clear: both; } }
