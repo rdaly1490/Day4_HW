@@ -234,9 +234,12 @@ body {
   color: #FFFFFF;
   margin-left: 5px; }
 
-@media (min-width: 479px) {
+@media (min-width: 478px) {
   .navbar {
     padding-right: 20%; }
+  .footer {
+    padding-left: 0%;
+    padding-right: 0%; }
   .text {
     height: 60%;
     margin: 0 auto; }
@@ -263,7 +266,6 @@ body {
     width: 46%;
     margin: 40px 10px 50px 10px; }
   .footer {
-    margin-top: 100%;
     clear: both; }
   .footer p {
     margin: 0 auto; }
