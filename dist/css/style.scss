@@ -216,10 +216,14 @@ body {
 
 .trees {
 	height:300px;
-	background:url(pics/trees.jpg) center;
-	background-size:270%;
-	background-position: left 0.2em top -1.6em;
-	background-repeat: no-repeat;
+	background:url(pics/trees.jpg) fixed;
+	// background-size:270%;
+	// background-position: left 0.2em top -1.6em;
+	// background-repeat: no-repeat;
+			-webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+	  background-size: cover;
 	margin:0 auto;
 	padding-top:60px;
 	box-sizing:border-box;
@@ -400,11 +404,11 @@ body {
 		width:40%;
 		padding-top:5px;
 	}
-	.trees {
-	background:url(pics/trees.jpg) center;
-	background-size:110%;
-	background-position: right -2em top -1.6em;
-	}
+	// .trees {
+	// background:url(pics/trees.jpg) center;
+	// background-size:110%;
+	// background-position: right -2em top -1.6em;
+	// }
 
 }
 
