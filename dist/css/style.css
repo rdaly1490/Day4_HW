@@ -1,9 +1,10 @@
 body {
-  background: #FFFFFF; }
+  background: #FFFFFF;
+  font-size: 25px; }
 
 .benefits {
   height: 875px;
-  margin-bottom: 50px; }
+  margin-bottom: 2em; }
 
 .benefits .picture {
   margin: 0 auto;
@@ -28,21 +29,21 @@ body {
 
 .account {
   text-align: center;
-  font-size: 35px;
+  font-size: 1.4em;
   color: #FFFFFF;
   margin: 0px auto 0px auto;
   box-sizing: border-box; }
 
 .cost {
   text-align: center;
-  font-size: 130px;
+  font-size: 5.2em;
   color: #FFFFFF;
   margin: 0px auto 0px auto;
   box-sizing: border-box; }
 
 .billing {
   text-align: center;
-  font-size: 35px;
+  font-size: 1.4em;
   color: #FFFFFF;
   margin: 0px auto 0px auto;
   box-sizing: border-box;
@@ -59,7 +60,7 @@ body {
 
 .children span {
   color: #515F65;
-  font-size: 25px; }
+  font-size: 1em; }
 
 .choose-btn {
   height: 125px;
@@ -83,7 +84,7 @@ body {
 .btn a {
   color: #262626;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 1em;
   font-weight: bold; }
 
 .bottom-text {
@@ -100,7 +101,7 @@ body {
 
 .bottom-text .header p {
   color: #000;
-  font-size: 30px;
+  font-size: 1.2em;
   margin: 0; }
 
 .paragraph {
@@ -111,7 +112,7 @@ body {
 
 .paragraph p {
   color: #556369;
-  font-size: 25px; }
+  font-size: 1em; }
 
 .bottom-text1 {
   background: #FFFFFF;
@@ -128,7 +129,7 @@ body {
 
 .bottom-text1 .header1 p {
   color: #000;
-  font-size: 30px; }
+  font-size: 1.2em; }
 
 .logo {
   height: 65px;
@@ -141,7 +142,7 @@ body {
 .logo a {
   display: table;
   margin: 0 auto;
-  font-size: 20px;
+  font-size: 0.8em;
   font-stretch: expanded;
   text-decoration: none;
   color: #484F57;
@@ -158,7 +159,7 @@ body {
 .top-gray a {
   display: table;
   margin: 0 auto;
-  font-size: 20px;
+  font-size: 0.8em;
   text-decoration: none;
   color: #7D7D7D;
   font-family: sans-serif; }
@@ -174,7 +175,7 @@ body {
 .top-black a {
   display: table;
   margin: 0 auto;
-  font-size: 20px;
+  font-size: 0.8em;
   text-decoration: none;
   color: #000000;
   font-family: sans-serif; }
@@ -188,7 +189,7 @@ body {
   height: 300px;
   background: url(pics/trees.jpg) center;
   background-size: 270%;
-  background-position: left 5px top -40px;
+  background-position: left 0.2em top -1.6em;
   background-repeat: no-repeat;
   margin: 0 auto;
   padding-top: 60px;
@@ -198,9 +199,8 @@ body {
   color: #FFFFFF;
   font-weight: bold;
   text-shadow: 1px 1px 1px #000;
-  font-size: 32px;
+  font-size: 1.4em;
   height: 60%;
-  width: 60%;
   margin: 0 auto;
   padding-top: 35px;
   text-align: center; }
@@ -223,7 +223,7 @@ body {
 
 .footer p {
   color: #556369;
-  font-size: 20px;
+  font-size: .8em;
   margin: 0 auto; }
 
 .footer a {
@@ -231,4 +231,9 @@ body {
 
 @media (min-width: 478px) {
   .navbar {
-    padding-right: 20%; } }
+    padding-right: 20%; }
+  .text {
+    height: 60%;
+    margin: 0 auto; }
+  .text p {
+    font-size: 1.5em; } }
