@@ -253,6 +253,8 @@ body {
 	text-align:center;
 	box-sizing:border-box;
 	padding-top:55px;
+	padding-left:20px;
+	padding-right:20px;
 		p {
 			color:#556369;
 			font-size:.8em;
@@ -263,10 +265,11 @@ body {
 .footer {
 	a {
 		color:$white;
+		margin-left: 5px;
 	}
 }
 
-@media (min-width: 478px) {
+@media (min-width: 479px) {
 	.navbar {
 		padding-right:20%;
 	}
@@ -284,12 +287,12 @@ body {
 		float:left;
 		margin-left: 5px;
 		margin-right: 5px;
-		width:32.1%;
+		width:31.5%;
 	}
 	.bottom-text1 {
 		float:left;
 		width:48%;
-		margin:40px auto 50px auto;
+		margin:40px 10px 50px 10px;
 		height:360px;
 		.header1 {
 			padding-top:0px;
@@ -300,7 +303,8 @@ body {
 	}
 	.bottom-text {
 		float:left;
-		width: 48%;
+		width: 46%;
+		margin:40px 10px 50px 10px;
 	}
 	.footer {
 		margin-top: 100%;
@@ -324,4 +328,81 @@ body {
 	.picture {
 		padding-top:20px;
 	}
+	body {
+		font-size:20px;
+	}
+	.children {
+		font-size:0.8em;
+	}
+	.choose-btn {
+		font-size:0.8em;
+	}
+	.btn {
+		height:40%;
+		width:40%;
+		padding-top:5px;
+	}
 }
+
+@media (min-width:979px) {
+		.benefits {
+			float:left;
+			margin-left: 5px;
+			margin-right: 5px;
+			width:25%;
+			box-sizing:border-box;
+		}
+		.main {
+			padding-left:17%;
+		}
+		.bottom-text1 {
+		float:left;
+		width:36%;
+		margin:40px 10px 50px 20px;
+		padding-right:0px;
+		height:360px;
+		box-sizing:border-box;
+			.paragraph {
+			padding-right:0px;
+		}
+	}
+		.header1 {
+			padding-top:0px;
+			font-size: 1em;
+				p {
+					margin:0;
+		}
+	}
+	.bottom-text {
+		float:left;
+		width: 36%;
+		margin:40px 10px 50px 20px;
+		box-sizing:border-box;
+		.paragraph {
+			padding-right:0px;
+		}
+	}
+	body {
+		font-size:20px;
+	}
+	.children {
+		font-size:0.8em;
+	}
+	.choose-btn {
+		font-size:0.8em;
+	}
+	.btn {
+		height:40%;
+		width:40%;
+		padding-top:5px;
+	}
+	.trees {
+	background:url(pics/trees.jpg) center;
+	background-size:110%;
+	background-position: right -2em top -1.6em;
+	}
+
+}
+
+
+
