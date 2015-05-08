@@ -18,7 +18,7 @@ body {
 			div {
 				height:330px;
 				// background:#519251;
-				width:50%;
+				// width:50%;
 				margin:0 auto;
 				padding-top:50px;
 				box-sizing:border-box;
@@ -28,14 +28,17 @@ body {
 
 .green {
 	background:#519251;
+	text-align:center;
 }
 
 .blue {
-	background:#2C4985
+	background:#2C4985;
+	text-align:center;
 }
 
 .black {
 	background:#111111;
+	text-align:center;
 }
 
 .account {
@@ -208,6 +211,7 @@ body {
 	height:65px;
 	background:$white;
 	margin:0 auto;
+	box-sizing:border-box;
 }
 
 .trees {
@@ -280,15 +284,18 @@ body {
 		float:left;
 		margin-left: 5px;
 		margin-right: 5px;
-		width:31%;
+		width:32.1%;
 	}
 	.bottom-text1 {
 		float:left;
 		width:48%;
-		margin:4px auto 50px auto;
+		margin:40px auto 50px auto;
 		height:360px;
 		.header1 {
 			padding-top:0px;
+			p {
+				margin:0;
+			}
 		}
 	}
 	.bottom-text {
@@ -298,5 +305,23 @@ body {
 	.footer {
 		margin-top: 100%;
 		clear:both;
+		 p {
+		 	margin:0 auto;
+		}
+	}
+	.navbar {
+		padding-right:50%;
+	}
+	.account {
+		font-size: 1.3em;
+	}
+	.billing {
+		font-size: 1.3em;
+	}
+	.cost {
+		font-size: 4em;
+	}
+	.picture {
+		padding-top:20px;
 	}
 }
