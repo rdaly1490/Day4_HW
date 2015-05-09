@@ -12,13 +12,10 @@ body {
 	margin-bottom:2em;
 		.picture {
 		margin:0 auto;
-		// background:#519251;
 		height:330px;
 		box-sizing:border-box;
 			div {
 				height:330px;
-				// background:#519251;
-				// width:50%;
 				margin:0 auto;
 				padding-top:50px;
 				box-sizing:border-box;
@@ -217,9 +214,6 @@ body {
 .trees {
 	height:300px;
 	background:url(pics/trees.jpg) fixed;
-	// background-size:270%;
-	// background-position: left 0.2em top -1.6em;
-	// background-repeat: no-repeat;
 			-webkit-background-size: cover;
 		  -moz-background-size: cover;
 		  -o-background-size: cover;
@@ -245,7 +239,6 @@ body {
 
 
 .main {
-	// height:4520px;
 	background:$white;
 	padding:0px 10px;
 	padding-top:75px;
@@ -315,7 +308,6 @@ body {
 		margin:40px 10px 50px 10px;
 	}
 	.footer {
-		// margin-top: 100%;
 		clear:both;
 		 p {
 		 	margin:0 auto;
@@ -404,12 +396,6 @@ body {
 		width:40%;
 		padding-top:5px;
 	}
-	// .trees {
-	// background:url(pics/trees.jpg) center;
-	// background-size:110%;
-	// background-position: right -2em top -1.6em;
-	// }
-
 }
 
 
